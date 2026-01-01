@@ -23,6 +23,8 @@ use PSpell\Config;
      VALUES ('$nome', '$email', '$senha')"
 );
 
+  header('Location: login.php');
+
   }
 ?>
 <!DOCTYPE html>
